@@ -16,7 +16,7 @@ services:
     volumes:
       - ./mariadb:/var/lib/mysql
   php:
-    image: php5.6-fpm
+    image: euclid1990/php5.6-fpm
     ports:
       - "9696:9000"
     volumes_from:
